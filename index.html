@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="base">
+        <!-- if you do .div$*9, it will put 9 divs listed from 1-9 -->
+        <div class="calculator">
+            <input type="text" name="display" class="display">
+            <form>
+                <div class="row">
+                    <input type="button" value="AC">
+                    <input type="button" value="DEL">
+                    <input type="button" value="%">
+                    <input type="button" value="/">
+                </div>
+                <div class="row">
+                    <!-- we are putting value because we need to put the value in js as wtv num it is -->
+                    <input type="button" value="9">
+                    <input type="button" value="8">
+                    <input type="button" value="7">
+                    <input type="button" value="*">
+                </div>
+                <div class="row">
+                    <input type="button" value="6">
+                    <input type="button" value="5">
+                    <input type="button" value="4">
+                    <input type="button" value="-">
+                </div>
+                <div class="row">
+                    <input type="button" value="3">
+                    <input type="button" value="2">
+                    <input type="button" value="1">
+                    <input type="button" value="+">
+                </div>
+                <div class="row">
+                    <input type="button" value="0">
+                    <input type="button" value=".">
+                    <input type="button" value="+/-">
+                    <input type="button" value="=">
+                </div>
+            </form>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
